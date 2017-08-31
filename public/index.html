@@ -1,0 +1,550 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chalkboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- Bootstrap 3.3.2 -->
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://vjs.zencdn.net/5.19.1/video-js.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">    <!-- If you'd like to support IE8 -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel = "stylesheet" href = "alertify.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link href="//vjs.zencdn.net/5.4.6/video-js.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="js/rs-plugin/css/settings.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+<style>
+    .git{
+        text-decoration: none !important;
+        text-underline: none;
+        color:white!important;
+    }
+</style>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="pre-loader">
+    <div class="load-con">
+        <img src="img/freeze/logo.png" class="animated fadeInDown" alt="">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+</div>
+
+<header>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="fa fa-bars fa-lg"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/freeze/logo.png" alt="" class="logo animated fadeInDown">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-->
+    </nav>
+
+
+    <!--RevSlider-->
+    <div class="tp-banner-container">
+        <div class="tp-banner" >
+            <ul>
+                <!-- SLIDE  -->
+                <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption lfl fadeout hidden-xs"
+                         data-x="250"
+                         data-y="bottom"
+                         data-hoffset="30"
+                         data-voffset="0"
+                         data-speed="500"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                        <img style = "width: 200px; height: 200px; "src="img/freeze/Slides/hand-freeze.png" alt="">
+                    </div>
+
+                    <div class="tp-caption lfl fadeout visible-xs"
+                         data-x="left"
+                         data-y="center"
+                         data-hoffset="700"
+                         data-voffset="0"
+                         data-speed="500"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                    </div>
+
+                    <div class="tp-caption large_white_bold sft" data-x="550" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                        Music
+                    </div>
+                    <div class="tp-caption large_white_light sfr" data-x="750" data-y="center" data-hoffset="0" data-voffset="-80" data-speed="500" data-start="1400" data-easing="Power4.easeOut">
+                        Swift
+                    </div>
+                    <div class="tp-caption large_white_light sfb" data-x="550" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                        Your
+                    </div>
+                    <div class="tp-caption large_white_light sfb" data-x="700" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="2000" data-easing="Power4.easeOut">
+                        Favorite
+                    </div>
+                    <div class="tp-caption large_white_light sfb" data-x="950" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="2200" data-easing="Power4.easeOut">
+                        DJ's
+                    </div>
+
+
+
+                </li>
+                <!-- SLIDE 2 -->
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption lfb fadeout hidden-xs"
+                         data-x="center"
+                         data-y="bottom"
+                         data-hoffset="0"
+                         data-voffset="0"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                    </div>
+
+
+                    <div class="tp-caption large_white_light sft" data-x="center" data-y="250" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1400" data-easing="Power4.easeOut">
+                        <span style = "font-size:22px;">Lorem ipsum is simply dummy text</span> <i style = "font-size:33px;"  class="fa fa-heart"></i>
+                    </div>
+                    <div class="tp-caption large_white_light sft" data-x="center" data-y="350" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1900" data-easing="Power4.easeOut">
+                        <span style = "font-size:15px;">Lorem ipsum is simply dummy text</span> <i style = "font-size:33px;" class="fa fa-globe"></i>
+
+                    </div>
+
+
+
+
+                </li>
+
+                <!-- SLIDE 3 -->
+                <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                    <!-- MAIN IMAGE -->
+                    <img src="img/transparent.png" alt="slidebg1" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+                    <!-- LAYERS -->
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption customin customout hidden-xs"
+                         data-x="right"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                         data-voffset="50"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                    </div>
+
+                    <div class="tp-caption customin customout visible-xs"
+                         data-x="center"
+                         data-y="center"
+                         data-hoffset="0"
+                         data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                         data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                         data-voffset="0"
+                         data-speed="1000"
+                         data-start="700"
+                         data-easing="Power4.easeOut">
+                    </div>
+
+
+                    <div class="tp-caption mediumlarge_light_white sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="1000" data-start="1000" data-easing="Power4.easeOut">
+                        Chalkboard Is Huge
+                    </div>
+                    <div class="tp-caption mediumlarge_light_white sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                    You will love Chalkboard
+                    </div><br>
+                    <div class="tp-caption small_light_white sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
+                        <p>Publish podcasts, publish videos, publish articles, organize a meetup. What will you do next?<br>  Enjoy content around the world!  <br>Interested in a certain topic? Check it out here at Chalkboard!<br> Sign Up today! </p>
+                    </div><br>
+
+
+
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+</header>
+
+
+<div class="wrapper">
+
+
+
+    <section id="about">
+        <div class="container">
+
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Why Music Swift?</h1>
+                <div class="divider"></div>
+                <p>Lorem Ipsum</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="about-item scrollpoint sp-effect2">
+                        <i class="fa fa-comment-o fa-2x"></i>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="about-item scrollpoint sp-effect5">
+                        <i class="fa fa-headphones fa-2x"></i>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="about-item scrollpoint sp-effect5">
+                        <i class="fa fa-play fa-2x"></i>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6" >
+                    <div class="about-item scrollpoint sp-effect1">
+                        <i class="fa fa-book fa-2x"></i>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Lorem Ipsum</h1>
+                <div class="divider"></div>
+                <p>Lorem Ipsum!</p>
+            </div>
+            <div class="section-heading scrollpoint sp-effect2">
+               <img style = "width:50%;height:auto;" src = "https://static1.squarespace.com/static/5451765ce4b0f4d5bea100a6/t/557a0a16e4b00d9eff5f2211/1434061335668/">
+            </div>
+    </section>
+
+
+
+    <section id="reviews">
+        <div class="container">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Lorem Ipsum is simply dummy text</h1>
+                <div class="divider"></div>
+                <p>Lorem Ipsum</p>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-push-1 scrollpoint sp-effect3">
+                    <div class="review-filtering">
+                        <div class="review">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="default-user.png" alt="" class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>"Lorem Ipsum"</h3>
+                                        <p>
+                                            - Krin Fox
+                                            <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review rollitin">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="default-user.png" alt="" class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“Lorem Ipsum”</h3>
+                                        <p>
+                                            - Theodore Willis
+                                            <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                                </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review rollitin">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="review-person">
+                                        <img src="default-user.png" alt="" class="img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="review-comment">
+                                        <h3>“Lorem Ipsum”</h3>
+                                        <p>
+                                            - Ricky Grant
+                                            <span>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star fa-lg"></i>
+                                                    <i class="fa fa-star-half-o fa-lg"></i>
+                                                    <i class="fa fa-star-o fa-lg"></i>
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="demo">
+        <div class="container">
+            <div class="section-heading scrollpoint sp-effect3">
+                <h1>Lorem Ipsum is simply dummy text</h1>
+                <div class="divider"></div>
+                <p>Lorem Ipsum is simply dummy text!</p>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 scrollpoint sp-effect2">
+                    <div class="video-container" >
+
+                        <iframe src="https://player.vimeo.com/video/47793390" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <p><a href="https://vimeo.com/47793390">Chalkboard</a> from <a href="https://vimeo.com/user65128844">Jalen Jackson</a> on <a href="https://vimeo.com">Vimeo</a>.</p>                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="getApp">
+        <div class="container-fluid">
+            <div class="section-heading inverse scrollpoint sp-effect3">
+                <h1>Lorem Ipsum</h1>
+                <div class="divider"></div>
+                <p>Lorem Ipsum is simply dummy text</p>
+                <br>
+                </h1>
+                <div class="divider"></div>
+                <p style = "cursor:pointer;" class = "github-link"><a class="git" target="_blank" href = "https://github.com/jalenjackson/Chalkboard">Click here to go to the github repo</a></p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hanging-phone scrollpoint sp-effect2 hidden-xs">
+                    </div>
+                    <div class="platforms">
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <a href="#" class="scrollpoint sp-effect3">
+                <img src="img/freeze/logo.png" alt="" class="logo">
+            </a>
+            <div class="social">
+                <a  class="scrollpoint sp-effect3 twitter"><i class="fa fa-twitter fa-lg "></i></a>
+                <a  class="scrollpoint sp-effect3 facebook"><i class="fa fa-google-plus fa-lg google"></i></a>
+                <a  class="scrollpoint sp-effect3 google"><i class="fa fa-facebook fa-lg facebook"></i></a>
+            </div>
+            <div class="rights">
+                <p>Built by Jalen Jackson</p>
+                <a class = "text-center" href="http://www.scoopthemes.com" target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+</div>
+
+<style>
+    .ajs-success{
+        background:black !important;
+    }
+    .ajs-footer{
+        background:black !important;
+    }
+    .ajs-body{
+        background:black !important;
+
+    }
+    .ajs-header{
+        background:black !important;
+
+    }
+    .ajs-content{
+        background:black !important;
+        color:white !important;
+        font-size:17px !important;
+    }
+    .ajs-dialog{
+        background:black !important;
+    }
+    button:focus {outline:0!important; }
+
+</style>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="//vjs.zencdn.net/5.4.6/video.min.js"></script>
+<script src = "alertify.min.js"></script>
+<script src="js/placeholdem.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    $(document).ready(function() {
+        appMaster.preLoader();
+    });
+    $(".signin").click(function(){
+        window.location = "users/sign_in";
+    });
+    $(".signup").click(function(){
+        window.location = "users/sign_up";
+    });
+
+
+    $(".link1").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard supports group chat. Scroll down to check out what the UI looks like in the video.").set({transition:'pulse'}).show();
+
+    });
+    $(".link2").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard has an entire podcast network where you can share your voice. Scroll down to check out the UI of Chalkboard in the video. Chalkboard is currently under active development.").set({transition:'slide'}).show();
+
+    });
+    $(".link3").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+    alertify.alert("Chalkboard","Chalkboard lets you share your own story with a great medium style editor. Read others stories and learn something new everyday.Scroll down to check out Chalkboards UI in the video.Chalkboard is currently under active development.").set({transition:'zoom'}).show();
+
+    });
+    $(".link4").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard allows you to share your favorite videos with the world. Chalkboard is currently under active development. Check out the UI in the video below.").set({transition:'pulse'}).show();
+
+
+    });
+    $(".link5").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard allows you to set up a location for people interested to join. Find a meet and join others. Scroll down to check out Chalkboard's UI").set({transition:'pulse'}).show();
+
+
+    });
+    $(".twitter").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard will soon be on twitter").set({transition:'pulse'}).show();
+
+
+    });
+    $(".facebook").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard will soon be on google").set({transition:'pulse'}).show();
+
+
+    });
+    $(".google").click(function(){
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.alert("Chalkboard","Chalkboard will soon be on facebook").set({transition:'pulse'}).show();
+
+
+    });
+
+
+
+</script>
+</body>
+
+</html>
